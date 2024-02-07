@@ -1,0 +1,19 @@
+print("Welcome to the NHS Covid Triage System")
+print("Do you have a cough?")
+answer = input()
+if answer == "yes":
+  print("You may have COVID19. Please contact your GP.")
+else:
+  print("You might not have COVID19.")
+  print("Do you have a high temperature?")
+answer1 = input()
+if answer1 == "yes":
+  print("You may have COVID19. Please contact your GP.")
+else:
+  print("You have stated that you do not have a cough nor do you have a high temperature which are symptoms of COVID19. This means that you do not have COVID19.")
+  print("Do you need help with anything else?")
+answer2 = input()
+if answer2 == "yes":
+  print("Call 111 or visit the NHS website for further assistance. Have a good day!")
+else:
+  print("Have a good day!")
